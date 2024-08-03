@@ -1,9 +1,9 @@
 #include <iostream>
-#include "args_reading.h"
-#include "field.h"
-#include "image.h"
-#include "sandpile.h"
-#include "tsv_reading.h"
+#include "reading/args_reading.h"
+#include "field/field.h"
+#include "drawing/image.h"
+#include "field/sandpile.h"
+#include "reading/tsv_reading.h"
 
 int main(int argc, char** argv) {
 	Arguments user_input = ArgsReading(argc, argv);

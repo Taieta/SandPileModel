@@ -4,8 +4,8 @@
 #include <cstdint>
 #include <string>
 #include <random>
-#include "args_reading.h"
-#include "field.h"
+#include "reading/args_reading.h"
+#include "field/field.h"
 
 struct Color {
 	uint8_t r = 0;

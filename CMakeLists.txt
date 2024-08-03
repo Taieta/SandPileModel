@@ -7,4 +7,7 @@ project(
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(SandPile args_reading.cpp args_reading.h field.cpp field.h main.cpp main.h image.cpp image.h tsv_reading.cpp tsv_reading.h sandpile.h sandpile.cpp list.cpp list.h point.h)
+add_subdirectory(bin)
+add_subdirectory(drawing)
+add_subdirectory(field)
+add_subdirectory(reading)

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "point.h"
+#include "field/point.h"
 
 struct Cell {
 	Point value = Point(0, 0, 0);
